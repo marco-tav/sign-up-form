@@ -1,0 +1,30 @@
+:root {
+
+}
+
+body {
+  background-color: #222;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  background-color: #d4d4d4;
+  height: 100%;
+  width: 70%;
+  display: flex;
+}
+
+.image {
+  height: inherit;
+  width: 35%;
+  background-color: salmon;
+}
+
+.form {
+  height: inherit;
+  width: 65 %;
+  background-color: lightblue;
+}

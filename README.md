@@ -4,4 +4,4 @@ This is the repository for the sign-up form project from The Odin Project.
 
 ## Status
 
-Basic structure added but still no content.
+Added basic structure and styles for the containers.
