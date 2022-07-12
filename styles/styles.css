@@ -74,6 +74,10 @@
   font-family: 'IBM Plex Sans', Arial, Helvetica, sans-serif;
 }
 
+a {
+  color: white;
+}
+
 body {
   background-color: #212121;
   display: flex;
@@ -94,6 +98,8 @@ body {
   background-size: cover;
   background-position: -100px;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .logo-div {
@@ -125,11 +131,13 @@ body {
   color: white;
 }
 
+#image-credit {
+  color: white;
+  align-self: flex-end;
+}
+
 .sign-up {
   width: 800px;
   background-color: darkcyan;
 }
 
-#image-credit {
-  visibility: hidden; /*I'll deal with other styles first, the make this visible again*/
-}
