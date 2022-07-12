@@ -96,12 +96,33 @@ body {
   position: relative;
 }
 
-.logo {
+.logo-div {
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 150px;
   position: absolute;
   top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-height: 130px;
+}
+
+.title {
+  margin-left: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-style: italic;
+  color: white;
 }
 
 .sign-up {
