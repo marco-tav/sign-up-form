@@ -23,3 +23,7 @@ body {
   width: 800px;
   background-color: darkcyan;
 }
+
+#image-credit {
+  visibility: hidden; /*I'll deal with other styles first, the make this visible again*/
+}
