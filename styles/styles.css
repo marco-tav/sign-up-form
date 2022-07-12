@@ -9,6 +9,15 @@ body {
   width: 100%;
   max-width: 1200px;
   min-height: 100vh;
-  background-color: orangered;
+  display: flex;
 }
 
+.image {
+  width: 400px;
+  background-color: aquamarine;
+}
+
+.sign-up {
+  width: 800px;
+  background-color: darkcyan;
+}
