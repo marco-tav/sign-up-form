@@ -14,7 +14,9 @@ body {
 
 .image {
   width: 400px;
-  background-color: aquamarine;
+  background: url("../resources/greg-rosenke-QtXy0uoJtxs-unsplash.jpg");
+  background-size: cover;
+  background-position: -100px;
 }
 
 .sign-up {
