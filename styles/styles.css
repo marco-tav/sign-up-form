@@ -195,6 +195,8 @@ div.form-col > input {
   margin-bottom: 25px;
   margin-top: 5px;
   height: 30px;
+  border: 1px solid grey;
+  border-radius: 6px;
 }
 
 div.form-col > label {
