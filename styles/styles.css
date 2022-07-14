@@ -125,7 +125,7 @@ body {
 
 .title {
   margin-left: 20px;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   font-weight: 600;
   font-style: italic;
   color: white;
@@ -145,6 +145,21 @@ body {
 
 .text-container {
   height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.message {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  padding-left: 30px;
+  padding-right: 100px;
+}
+
+.sign-up-now {
+  font-style: italic;
 }
 
 .form-container {
