@@ -31,7 +31,7 @@
           <p class="message sign-up-now">Sign up now!</p>
         </div>
         <div class="form-container">
-          <form action="#" method="post">
+          <form action="#" method="post" id="sign-up-form">
             <div class="form-col left">
               <label for="first-name">First Name</label>
               <input type="text" id="first-name" name="first_name" placeholder="Marcos" required>
@@ -54,6 +54,9 @@
               <input type="password" name="confirm_password" id="confirm-password" required>
             </div>
           </form>
+          <div class="create-account">
+            <button form="sign-up-form" type="submit">Create Account</button>
+          </div>
         </div>
     </div>
   </body>
