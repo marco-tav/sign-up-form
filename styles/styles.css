@@ -201,14 +201,6 @@ div.form-col > input {
   box-shadow: none;
 }
 
-div.form-col > input:valid {
-  border: 2px solid rgb(52, 238, 52);
-}
-
-div.form-col > input:invalid {
-  border: 2px solid red;
-}
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     /* display: none; <- Crashes Chrome on hover */
