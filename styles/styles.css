@@ -234,6 +234,14 @@ div.form-col > label {
   font-weight: 600;
 }
 
+.create-account > button:hover {
+  background-color: #f7a100;
+}
+
+.create-account > button:active {
+  background-color: #eb9800;
+}
+
 .create-account > p {
   color: white;
   font-size: 1.1rem;
